@@ -51,7 +51,7 @@ PLATFORMS
 
 DEPENDENCIES
   jeweler (~> 2.0.1)
-  thor
+  thor (>= 0.19.1)
 
 BUNDLED WITH
    1.10.6
