@@ -1,6 +1,6 @@
 # Replace Recursive
 
-Replace recursive text in path or into all files
+Replace recursive text in path (directories and files) or files (text into file)
 
 # Installing
 
@@ -9,15 +9,9 @@ Replace recursive text in path or into all files
 # Usage
 
 ```
--p --path : Path to search string
--f --find : Text to search to replace
--r --replace : New text
+Commands:
+  replace_recursive help [COMMAND]                                           # Describe available commands or one specific command
+  replace_recursive path f, --find=FIND p, --path=PATH r, --replace=REPLACE  # Replace all occurrencies of --find by --replace in path (file and folder names)
+  replace_recursive text f, --find=FIND p, --path=PATH r, --replace=REPLACE  # Replace all occurrencies of --find by --replace in files (Text in files)
 ```
 
-## Text in files recursive
-
-`replace_recursive text -p ~/Path -f user -r users`
-
-## Names of path and files recursive
-
-`replace_recursive path -p ~/Path -f user -r users`
